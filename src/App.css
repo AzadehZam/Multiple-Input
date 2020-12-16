@@ -3,22 +3,24 @@
 }
 
 .page {
-  border: 4mm ridge rgba(222, 192, 235, 0.6);
+  border: 4mm ridge rgba(81, 131, 196, 0.6);
   margin: 10vh 38vw;
-  padding: 5vh 0;
-
+  padding: 5vh 2vw;
+  text-align: left;
 }
 
 .closable-input{
-  margin: 2vh ;
+  margin: 2vh 0 2vh 1vw ;
   padding: 1vh;
   font-weight: bold;
+  border: 2px solid #8b8a8b;
+  border-radius: 4px;
 }
 
 .close-button {
-  border: solid;
-  border-radius: 50%;
-  color: red;
+  border: 2px solid;
+  border-radius: 40%;
+  color: rgb(209, 38, 38);
   margin: 0 1vh;
   font-weight: bold;
   font-size: large;
